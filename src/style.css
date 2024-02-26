@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-family: Inter, system-ui, Segoe UI, Roboto, Helvetica Neue, sans-serif;
-  color: black;
-  background: white;
-}
-
 body {
   margin: 0.5rem 1rem;
+  height: 100vh;
+  font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
 header {
@@ -26,7 +22,7 @@ header p {
 }
 
 iframe,
-textarea {
+textarea, .terminal {
   border-radius: 3px;
 }
 
@@ -43,10 +39,8 @@ textarea {
   background: black;
   color: white;
   padding: 0.5rem 1rem;
+  font-size: 120%;
   margin-bottom: 10px;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  font-family: Menlo, Cascadia Code, Consolas, Liberation Mono, monospace;
 }
 
 .container {
@@ -65,14 +59,5 @@ textarea {
   filter: drop-shadow(0 1px 0 #fff);
   font-weight: 800;
   color:#69f5ff;
-  text-decoration: underline;
-}
-
-.docs {
-  margin-left: 5px;
-  text-decoration: none;
-  font-weight:600;
-  color:#333;
-  font-size: 80%;
   text-decoration: underline;
 }
